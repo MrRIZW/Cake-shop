@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Components</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <link href="https://fonts.cdnfonts.com/css/lucida-handwriting-std" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  
+  <style>
+     @import url('https://fonts.cdnfonts.com/css/lucida-handwriting-std');
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <img src="./cakelogo.jpg" alt="cakelogo" height="100px" width="100px">
+        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+        <span class="fs-4" style="font-family: 'Lucida Handwriting Std', sans-serif;">ST CAKES</span>
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li>
+        <li class="nav-item"><a href="./cakes.html" class="nav-link">Cakes</a></li>
+        <li class="nav-item"><a href="./chocolate.html" class="nav-link">Chocolates</a></li>
+        <li class="nav-item"><a href="./custom.html" class="nav-link">Custom cakes</a></li>
+        <li class="nav-item"><a href="./about.html" class="nav-link">About</a></li>
+      </ul>
+    </header>
+  </div>
+
+  <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold text-body-emphasis">Cake world</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">A Slice of Heaven</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+    </div>
+    <div class="overflow-hidden" style="max-height: 50vh;">
+      <div class="container px-5">
+        <img src="./cake-home.jpg" class="img-fluid border rounded-3 shadow-lg mb-" alt="cake-homepage" width="700" height="800">
+      </div>
+    </div>
+  </div>
+
+  <div class="container px-4 py-5" id="featured-3">
+    <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+      <div class="feature col">
+        <div class="feature-icon  bg-gradient">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+        </div>
+        <h2>Birthday Cakes</h2>
+        <p style="font-family: 'Lucida Handwriting Std', sans-serif;">Make every birthday unforgettable with our stunning range of birthday cakes! From whimsical designs to elegant styles, our cakes are crafted to suit every age and personality. Choose from classic flavors like chocolate, vanilla, and red velvet, or explore our seasonal specials. Each cake is made with the finest ingredients to ensure a delicious treat that will delight both the eyes and taste buds. Celebrate your special day with a cake that’s as unique as you are!</p>
+        
+      </div>
+      <div class="feature col">
+        <div class="feature-icon bg-gradient">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+        </div>
+        <h2>Chocolates</h2>
+        <p style="font-family: 'Lucida Handwriting Std', sans-serif;">Discover a world of decadence with our exquisite chocolates! Handcrafted with love and passion, our selection includes everything from rich truffles to creamy bars, each designed to satisfy your chocolate cravings. Explore a variety of flavors, including dark, milk, and white chocolate, infused with delightful ingredients like fruit, nuts, and spices. Perfect for gifting or indulging yourself, our chocolates are the ultimate treat for any occasion.</p>
+      </div>
+      <div class="feature col">
+        <div class="feature-icon bg-gradient">
+          <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+        </div>
+        <h2>Custom Cakes</h2>
+        <p style="font-family: 'Lucida Handwriting Std', sans-serif;">Create a cake that tells your story with our Custom Cake service! Whether it’s for a birthday, wedding, or any celebration, our team works with you to design a cake that reflects your unique style and preferences. Choose your favorite flavors, fillings, and decorations, and let us transform your ideas into a stunning centerpiece. With meticulous attention to detail and a passion for baking, we ensure your custom cake is not only beautiful but also delicious!</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./cake1.jpg" class="d-block w-100" style="border-radius: 50%; border: 2px solid goldenrod; width: auto; height: auto;" alt="cake1">
+        </div>
+        <div class="carousel-item">
+          <img src="./cake2.jpg" class="d-block w-100" style="border-radius: 50%; border: 2px solid goldenrod; width: auto; height: auto;"alt="cake2">
+        </div>
+        <div class="carousel-item">
+          <img src="./cake3.jpg" class="d-block w-100" style="border-radius: 50%; border: 2px solid goldenrod; width: auto; height: auto;" alt="cake3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+</div>
+<div class="container">
+  <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <div class="col-md-4 d-flex align-items-center">
+      <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+        <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg>
+      </a>
+      <span class="mb-3 mb-md-0 text-muted">© 2024 ST CAKES, Owner:Shameem&Thasneem</span>
+    </div>
+
+    <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
+      <li class="ms-3"><!-- Twitter Icon -->
+        <a href="https://twitter.com/yourusername" target="_blank">
+            <i class="fab fa-twitter" style="font-size: 40px;"></i>
+        </a></li>
+      <li class="ms-3"><!-- Instagram Icon -->
+        <a href="https://instagram.com/yourusername" target="_blank">
+            <i class="fab fa-instagram" style="font-size: 40px;"></i>
+        </a></li>
+      <li class="ms-3"><!-- Facebook Icon -->
+        <a href="https://facebook.com/yourusername" target="_blank">
+            <i class="fab fa-facebook" style="font-size: 40px;"></i>
+        </a></li>
+    </ul>
+  </footer>
+</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
